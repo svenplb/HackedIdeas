@@ -2,38 +2,96 @@
 @tailwind components;
 @tailwind utilities;
 
-  body {
-      font-family:'Lucida Console', monospace;
-      font-size: 18px;
-      color: #111;
-      background-color: white;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 0 50px;
-      box-sizing: border-box;
-    }
-    .landing {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height:100vh; min-height:100dvh;
-      text-align: center;
-    }
-    svg { width: 100%; height: auto; }
-    .svg-container { width: 100%; max-width: 400px; display: inline-block; }
-    .separator { letter-spacing: -9px; }
-    hr { border: none; height: 2px; background-color: lightgrey; width: 100%; margin: 30px auto; }
-    table { border-collapse: collapse; text-align: center; width: 100%; }
-    td {
-      padding: 5px 20px;
-      border: 1px solid #dddddd;
-    }
-    .quiet, .links-container a { color: inherit; }
-    .links-container { font-size: 24px; margin: 20px; }
-    .links-container a { text-decoration: none; margin: 0 10px; }
-    .product-photo { display: block; max-width: 640px; width: 100%; margin: 0 auto; }
-    .faqtable dt { margin-bottom: 0.75em; font-style: italic; }
-    .faqtable dd { margin-left: 0; margin-bottom: 2em; }
+body {
+  font-family: 'Lucida Console', monospace;
+  font-size: 18px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-height: 100dvh;
+  text-align: center;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+.svg-container {
+  width: 100%;
+  max-width: 400px;
+  display: inline-block;
+}
+
+.separator {
+  letter-spacing: -9px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: lightgrey;
+  width: 100%;
+  margin: 30px auto;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+td {
+  padding: 5px 20px;
+  border: 1px solid #dddddd;
+}
+
+.quiet,
+.links-container a {
+  color: inherit;
+}
+
+.links-container {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.links-container a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.product-photo {
+  display: block;
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.faqtable dt {
+  margin-bottom: 0.75em;
+  font-style: italic;
+}
+
+.faqtable dd {
+  margin-left: 0;
+  margin-bottom: 2em;
+}
+
+
+.background {
+
+  background: rgb(1, 18, 0);
+  background: linear-gradient(90deg, rgba(1, 18, 0, 1) 0%, rgba(0, 0, 0, 1) 100%);
+
+}
+
 
 
